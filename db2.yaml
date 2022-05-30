@@ -1,0 +1,24 @@
+resources:
+  database:
+    - db-name: db1
+      schemas:
+        sca:
+          - schema-name: sc1
+            notifications:
+              - email1
+              - sms1
+          - schema-name: sc2
+            notification:
+              - email2
+              - sms2
+    - db-name: db3
+      schemas:
+        sca:
+          - schema-name: sc3
+            notifications:
+              - email3
+              - sms3
+          - schema-name: sc4
+            notification:
+              - email4
+              - sms4
