@@ -29,7 +29,7 @@ def get_recursively(search_dict, field):
     return fields_found
 
 
-stream = open('C:\\Users\\rs6134\\Downloads\\db2.yaml', 'r')
+stream = open('db2.yaml', 'r')
 data = yaml.load(stream,Loader=yaml.FullLoader)
 
 for val in get_recursively(data, 'sca'):
